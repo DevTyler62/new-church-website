@@ -1,0 +1,219 @@
+.values {
+  min-height: 100%;
+}
+
+.card-container {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  background: $white;
+  box-shadow: 0 5px 8px 0 rgba(120, 119, 119, 0.418);
+  width: 25%;
+  height: 60%;
+  border-radius: 15px;
+}
+
+.card-image {
+  text-align: center;
+  padding: 5rem;
+}
+
+.card-title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 400%;
+  color: $darkBlue;
+}
+
+.card-text {
+  text-align: center;
+  padding: 6rem;
+  font-size: 180%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: $darkBlue;
+}
+
+#BigStar {
+  animation: BigStar 3s linear infinite;
+  -webkit-animation: BigStar 3s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+@keyframes BigStar {
+  from {
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+
+#LittleStars {
+  animation: LittleStars 3s linear infinite;
+  -webkit-animation: LittleStars 3s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+@keyframes LittleStars {
+  from {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+  }
+  to {
+    transform: scale(3);
+    -webkit-transform: scale(3);
+    -moz-transform: scale(3);
+    -ms-transform: scale(3);
+    -o-transform: scale(3);
+  }
+}
+
+#note1 {
+  animation: musicNotes 2.5s linear infinite;
+  -webkit-animation: musicNotes 2.5s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+#note6 {
+  animation: musicNotes 3s linear infinite;
+  -webkit-animation: musicNotes 3s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+#note3 {
+  animation: musicNotes 4s linear infinite;
+  -webkit-animation: musicNotes 4s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+#note2 {
+  animation: musicNotes 4.5s linear infinite;
+  -webkit-animation: musicNotes 4.5s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+#note5 {
+  animation: musicNotes 3.5s linear infinite;
+  -webkit-animation: musicNotes 3.5s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+#note4 {
+  animation: musicNotes 2s linear infinite;
+  -webkit-animation: musicNotes 2s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+@keyframes musicNotes {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+  }
+  20% {
+    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+  }
+  40% {
+    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+  }
+  50% {
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+  }
+  60% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1024px) {
+  .card-container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .card {
+    width: 40%;
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .card-container {
+    flex-direction: column;
+    padding-top: 5rem;
+  }
+  .card {
+    width: 90%;
+    margin-top: 3rem;
+  }
+
+  .values h2 {
+    padding-top: 6rem;
+    font-weight: 700;
+    font-size: 600%;
+  }
+}

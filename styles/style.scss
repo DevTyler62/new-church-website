@@ -1,0 +1,19 @@
+$blue: #393b63;
+$darkBlue: #0f0d35;
+$white: #f6f7f3;
+$offYellow: #f4bb8a;
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@import "global";
+@import "intro";
+@import "values";
+@import "history";
+@import "timesandevents";
+@import "contact";
+@import "footer";

@@ -1,0 +1,75 @@
+.join-us {
+  text-align: center;
+  p {
+    line-height: 2em;
+    font-size: 200%;
+    font-weight: 425;
+  }
+}
+
+.address {
+  text-align: center;
+  p {
+    line-height: 2em;
+    font-size: 200%;
+    font-weight: 425;
+  }
+}
+
+.upcoming-events {
+  text-align: center;
+  margin-bottom: 5rem;
+  li {
+    line-height: 2em;
+    font-size: 200%;
+    font-weight: 425;
+  }
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 926px) and (orientation: landscape) {
+  h3 {
+    font-size: 2rem;
+  }
+  .join-us {
+    p {
+      font-size: 1.5rem;
+    }
+  }
+  .address {
+    p {
+      font-size: 1.5rem;
+    }
+  }
+  .upcoming-events {
+    li {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  h2 {
+    font-size: 550%;
+  }
+  h3 {
+    font-size: 275%;
+  }
+  .join-us {
+    p {
+      font-size: 175%;
+    }
+  }
+  .address {
+    p {
+      font-size: 175%;
+    }
+  }
+  .upcoming-events {
+    li {
+      text-align: left;
+      font-size: 160%;
+    }
+  }
+}
