@@ -8,8 +8,8 @@ so it makes it easier to move around or speeds up the process when is comes to m
 
 I also learned the basics of Figma so I had used that to make a design of what I was looking for before I actually went to coding up the site fully.
 
-The new site cound be found at 
+The new site cound be found at:  
 https://providencemennonitec.netlify.app/
 
-The old site that I had updated can be found at
+The old site that I had updated can be found at: 
 https://providencemennonite.netlify.app/
