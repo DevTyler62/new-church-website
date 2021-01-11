@@ -7,6 +7,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 .flex {
@@ -333,14 +334,17 @@ nav .button {
     top: 0;
     bottom: 0;
     left: 0;
-    right: -1px;
+    right: 0px;
     background: #0f0d35;
     -webkit-transform-origin: 0 0;
             transform-origin: 0 0;
-    -webkit-transform: skew(-14deg) translateX(-120%);
-            transform: skew(-14deg) translateX(-120%);
+    transform: skew(-15deg) translateX(-120%);
     -webkit-transition: all 0.275s 0.1s;
     transition: all 0.275s 0.1s;
+    -webkit-transform: skew(-15deg) translateX(-120%);
+    -moz-transform: skew(-15deg) translateX(-120%);
+    -ms-transform: skew(-15deg) translateX(-120%);
+    -o-transform: skew(-15deg) translateX(-120%);
   }
   .main-nav.is-open::before {
     -webkit-transform: skew(-14deg) translateX(0);
@@ -1005,6 +1009,7 @@ nav .button {
   }
   .upcoming-events li {
     text-align: left;
+    padding-left: 1.5rem;
     font-size: 160%;
   }
 }

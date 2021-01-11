@@ -4,6 +4,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="./favicon/site.webmanifest">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
             rel="stylesheet">
@@ -39,13 +44,13 @@
             </div>
         </header>
         <section class="intro">
-            <div class="intro-text">
+            <div class="intro-text" data-aos="fade-right" data-aos-duration="600">
                 <h1>WELCOME TO <br> PROVIDENCE MENNONITE <br> CHURCH</h1>
-                <div class="intro-button">
+                <div class="intro-button" data-aos="fade-up-right" data-aos-duration="700">
                     <a href="#time-events">Join Us</a>
                 </div>
             </div>
-            <div class="intro-image">
+            <div class="intro-image" data-aos="fade-up" data-aos-duration="800">
                 <img src="./img/church.svg" alt="church">
             </div>
         </section>
@@ -54,7 +59,7 @@
                 <h2>Our Values</h2>
             </div>
             <div class="card-container">
-                <div class="card">
+                <div class="card" data-aos="flip-left" data-aos-duration="1000">
                     <div class="card-image">
                         <svg width="216" height="176" viewBox="0 0 214 179" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -2124,7 +2129,7 @@
                             someone new comes in we welcome them as if they have been there for years. </p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="flip-up" data-aos-duration="1000">
                     <div class="card-image">
                         <svg width="216" height="176" viewBox="0 0 244 197" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -3059,7 +3064,7 @@
                             someone new comes in we welcome them as if they have been there for years. </p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="flip-right" data-aos-duration="1000">
                     <div class="card-image">
                         <svg width="216" height="176" viewBox="0 0 216 176" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -4385,6 +4390,10 @@
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="./app.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 
 </html>

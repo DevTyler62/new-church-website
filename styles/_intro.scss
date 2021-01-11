@@ -220,11 +220,15 @@ nav {
     top: 0;
     bottom: 0;
     left: 0;
-    right: -1px;
+    right: 0px;
     background: $darkBlue;
     transform-origin: 0 0;
-    transform: skew(-14deg) translateX(-120%);
+    transform: skew(-15deg) translateX(-120%);
     transition: all 0.275s 0.1s;
+    -webkit-transform: skew(-15deg) translateX(-120%);
+    -moz-transform: skew(-15deg) translateX(-120%);
+    -ms-transform: skew(-15deg) translateX(-120%);
+    -o-transform: skew(-15deg) translateX(-120%);
   }
 
   .main-nav.is-open::before {
