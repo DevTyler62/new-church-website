@@ -11,6 +11,9 @@ I also learned the basics of Figma so I had used that to make a design of what I
 While also using Figma to design the layout of the website I had put in some icons to use for the cards I was going to use. I then exported them as SVG's so then I was able to 
 animate parts of the icon to make things more intresting. They are some small animations but I had enjoyed the process of getting them to work they way i wanted them to.
 
+This is a link to a PDF of the design I made up within Figma. Some things are a bit different from the design to the actual site.
+https://drive.google.com/file/d/1bkldGRGWBH8k646CGZVTV6xwI1pezdhr/view?usp=sharing
+
 The new site cound be found at:  
 https://providencemennonitec.netlify.app/
 
