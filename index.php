@@ -60,7 +60,7 @@
         <div class="card-container">
             <div class="card" data-aos="flip-left" data-aos-duration="1000">
                 <div class="card-image">
-                    <?php include("../newChurch/img/family.svg"); ?>
+                    <?php include("./img/family.svg"); ?>
                 </div>
                 <div class="card-title">
                     <h4>Family</h4>
@@ -72,7 +72,7 @@
             </div>
             <div class="card" data-aos="flip-up" data-aos-duration="1000">
                 <div class="card-image">
-                    <?php include("../newChurch/img/community.svg"); ?>
+                    <?php include("./img/community.svg"); ?>
                 </div>
                 <div class="card-title">
                     <h4>Community</h4>
@@ -84,7 +84,7 @@
             </div>
             <div class="card" data-aos="flip-right" data-aos-duration="1000">
                 <div class="card-image">
-                    <?php include("../newChurch/img/faith.svg"); ?>
+                    <?php include("./img/faith.svg"); ?>
                 </div>
                 <div class="card-title">
                     <h4>Faith</h4>
