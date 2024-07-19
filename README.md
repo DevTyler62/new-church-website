@@ -14,7 +14,7 @@ animate parts of the icon to make things more intresting. They are some small an
 This is a link to a PDF of the design I made up within Figma. Some things are a bit different from the design to the actual site.
 https://drive.google.com/file/d/1bkldGRGWBH8k646CGZVTV6xwI1pezdhr/view?usp=sharing
 
-The new site cound be found at:  
+The new site cound be found at: (With Heroku's changes the site is no longer live at this time)  
 https://providence-church.herokuapp.com/
 
 Since heroku is being used it may take some time for the site to load due to the fact that there is no traffic to keep it running all of the time.
